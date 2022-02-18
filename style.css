@@ -1,0 +1,268 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url('back.jpg')no-repeat center center fixed;
+    background-size: cover;
+}
+.container{
+    text-align: center;
+}
+.subcontainer{
+    text-align: center;
+    border-top: 7px solid black;
+    max-width: 80%;
+    margin-left: 122px;
+    margin-right: 122px;
+    margin-top: 22px;
+    border-radius: 12px;
+    justify-content: center;
+    background-color: aliceblue;
+}
+.h1{
+    margin-top: 17px;
+    margin-left: 17px;
+    margin-right: 7px;
+    font-size: 25px;
+    text-align: center;
+    color: black;
+    font-weight: bolder;
+}
+#h2{
+    font-size: 16px;
+    text-align: left;
+    margin-top: 22px;
+    margin-left: 17px;
+    margin-right: 17px;
+    color: rgb(10, 92, 32);
+}
+#h2 b{
+    color: red;
+}
+legend{
+    color: navy;
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 27px;
+    margin-right: 27px;
+}
+.personal{
+    text-align: left;
+    margin-left: 17px;
+    margin-right: 17px;
+}
+.label{
+    font-size: 18px;
+    font-weight: bold;
+}
+#n1{
+    margin-left: 17px;
+    margin-right: 17px;
+}
+#name{
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: navy;
+    font-size: 14px;
+    border-bottom: 2px solid black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    margin-left: 13px;
+}
+#r1{
+    margin-left: 17px;
+    margin-right: 17px;
+}
+#roll{
+    width: 180px;
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: navy;
+    font-size: 14px;
+    border-bottom: 2px solid black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+#a1{
+    margin-left: 17px;
+    margin-right: 17px;
+}
+#add{
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: navy;
+    font-size: 14px;
+    border-bottom: 2px solid black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+#e1{
+    margin-left: 17px;
+    margin-right: 17px;
+}
+#email{
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: navy;
+    font-size: 14px;
+    border-bottom: 2px solid black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    margin-left: 16px;
+}
+#g{
+    margin-left: 17px;
+}
+#g1{
+    margin-left: 77px;
+}
+#g2{
+    margin-left: 77px;
+}
+#g3{
+    margin-left: 77px;
+    margin-bottom: 17px;
+}
+#d1{
+    margin-left: 17px;
+    margin-right: 17px;
+}
+#date{
+    display: flex;
+    margin-left: 120px;
+    margin-right: 17px;
+    margin-bottom: 12px;
+}
+fieldset{
+    margin-top: 12px;
+    border-radius: 7px;
+}
+#l{
+    margin-top: 7px;
+    margin-bottom: 17px;
+    margin-left: 17px;
+    margin-right: 17px;
+    font-size: 16px;
+    font-weight: bold;
+}
+#l1{
+    margin-top: 9.5px;
+    margin-bottom: 9.5px;
+    margin-left: 17px;
+    margin-right: 17px;
+    font-size: 16px;
+    color: navy;
+}
+#l2{
+    margin-top: 9.5px;
+    margin-bottom: 9.5px;
+    margin-left: 17px;
+    margin-right: 17px;
+    font-size: 16px;
+    color: navy;
+}
+#l3{
+    margin-top: 9.5px;
+    margin-bottom: 9.5px;
+    margin-left: 17px;
+    margin-right: 17px;
+    font-size: 16px;
+    color: navy;
+}
+#l4{
+    margin-top: 9.5px;
+    margin-bottom: 9.5px;
+    margin-left: 17px;
+    margin-right: 17px;
+    font-size: 16px;
+    color: navy;
+}
+#l5{
+    margin-top: 9.5px;
+    margin-bottom: 9.5px;
+    margin-left: 17px;
+    margin-right: 17px;
+    font-size: 16px;
+    color: navy;
+}
+#l6{
+    margin-top: 9.5px;
+    margin-bottom: 9.5px;
+    margin-left: 17px;
+    margin-right: 17px;
+    font-size: 16px;
+    color: navy;
+}
+#year{
+    margin-top: 17px;
+    margin-bottom: 17px;
+    margin-left: 17px;
+    margin-right: 17px;
+    font-size: 16px;
+    font-weight: bold;
+}
+#branch1{
+    margin-left: 160px;
+    margin-right: 7px;
+    margin-bottom: 12px;
+}
+#c1{
+    margin-top: 2px;
+    margin-left: 17px;
+    margin-right: 17px;
+    font-size: 16px;
+    font-weight: bold;
+}
+#certificate{
+    display: flex;
+    margin-left: 30px;
+    margin-right: 17px;
+    margin-bottom: 12px;
+    margin-top: 12px;
+}
+.label1{
+    margin-top: 10px;
+    margin-left: 17px;
+    margin-right: 17px;
+}
+#submit{
+    cursor: pointer;
+    background: rgb(22, 102, 187);
+    border-radius: 4px;
+    font-size: 22px;
+    font-weight: bold;
+    max-width: 70%;
+    color: aliceblue;
+    border: 2px solid rgb(22, 102, 187);
+}
+.btn:hover{
+    background-color: aliceblue;
+    color: navy;
+}
+::-webkit-scrollbar {
+    width: 7px;
+  }
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 7px;
+  }
+::-webkit-scrollbar-thumb {
+    background: gray; 
+    border-radius: 21px;
+  }
+::-webkit-scrollbar-thumb:hover {
+    background: black; 
+  }
