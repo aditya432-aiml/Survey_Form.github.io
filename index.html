@@ -19,43 +19,43 @@
                 <p>Application Form For Online Or Offline College</p>
                 <p id="h2"><b>Note:</b> Form is to be completed at least 7 days prior to date</p>
             </div>
-            <form action="/action.php">
+            <form action="mailto:sample@gmail.com" method="POST" enctype="text/plain" name="EmailForm">
             <div class="personal">
 
                 <fieldset>
                 <legend>Personal Details</legend>
                 <div class="label">
                     <label for="name" id="n1">Name :</label>
-                    <input type="text" name="name" id="name" placeholder="Enter Your Name " required><br>
+                    <input type="text" name="Name" id="name" placeholder="Enter Your Name " required><br>
                     
                     <label for="roll" id="r1">Roll No :</label>
-                    <input type="number" name="roll" id="roll" placeholder="Enter Your Roll No " min="1" max="60" required><br>
+                    <input type="number" name="Roll No" id="roll" placeholder="Enter Your Roll No " min="1" max="60" required><br>
 
                     <label for="add" id="a1">Address :</label>
-                    <input type="text" name="add" id="add" placeholder="Enter Your Address " required><br>
+                    <input type="text" name="Address" id="add" placeholder="Enter Your Address " required><br>
 
                     <label for="email" id="e1">Email :</label>
-                    <input type="email" name="email" id="email" placeholder="Enter Your Email " required><br>
+                    <input type="email" name="Email" id="email" placeholder="Enter Your Email " required><br>
 
                     <label for="gender" id="g">Gender</label>
                     <p>
-                    <input type="radio" name="gender" value="gender_1" id="g1"> Male<br>
-                    <input type="radio" name="gender" value="gender_2" id="g2"> Female<br>
-                    <input type="radio" name="gender" value="gender_3" id="g3"> Other<br>
+                    <input type="radio" name="Gender" value="Male" id="g1"> Male<br>
+                    <input type="radio" name="Gender" value="Female" id="g2"> Female<br>
+                    <input type="radio" name="Gender" value="Other" id="g3"> Other<br>
                     </p>
 
-                    <label for="date" id="d1">Date Of Second Vaccination</label>
-                    <input type="date" name="date" id="date" required>
+                    <label for="date" id="d1">Date Of Birth</label>
+                    <input type="date" name="Date Of Birth" id="date" required>
                 </fieldset> 
                 
                 <fieldset>
                     <label for="guide" id="l">Guidliness To Be Followed In College :</label>
                     <p>
-                        <input type="checkbox" name="guide" id="l1" required> I will Maintain 2 meter Social Distancing from others<br>
-                        <input type="checkbox" name="guide" id="l2" required> I will carry Hand Santizer with me<br>
-                        <input type="checkbox" name="guide" id="l3" required> I will carry vaccination certifiacte with me<br>
-                        <input type="checkbox" name="guide" id="l4" required> I will wear a face mask<br>
-                        <input type="checkbox" name="guide" id="l5" required> I will carry College Identity card with me<br>
+                        <input type="checkbox" name="I will Maintain 2 meter Social Distancing from others" id="l1" required> I will Maintain 2 meter Social Distancing from others<br>
+                        <input type="checkbox" name="I will carry Hand Santizer with me" id="l2" required> I will carry Hand Santizer with me<br>
+                        <input type="checkbox" name="I will carry vaccination certifiacte with me" id="l3" required> I will carry vaccination certifiacte with me<br>
+                        <input type="checkbox" name="I will wear a face mask" id="l4" required> I will wear a face mask<br>
+                        <input type="checkbox" name="I will carry College Identity card with me" id="l5" required> I will carry College Identity card with me<br>
                     </p>                    
                 </fieldset>
                 
@@ -77,13 +77,13 @@
                 <fieldset>
                     <label for="certificate">
                     <p id="c1">
-                    Upload Second Vaccination Certifiacte<br><input type="file" name="certificate" id="certificate" required>
+                    Upload Second Vaccination Certifiacte<br><input type="file" name="Second Vaccination Certifiacte" id="certificate" required>
                     </p>
                     </label>
                 </fieldset>
                 </div>
                 <div class="label1">
-                    <button id="submit">Submit</button>
+                    <button id="submit" type="submit" value="submit">Submit</button>
                 </div>
             </form>       
             </div>
